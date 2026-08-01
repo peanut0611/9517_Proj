@@ -1,0 +1,36 @@
+# Python / tooling
+.venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Local experiment artifacts (too large for git / course ZIP)
+outputs/
+*.joblib
+*.npz
+*.npz
+*.pt
+*.pth
+*.ckpt
+features.npz
+idf.npy
+
+# Dataset images (download separately; see DATASET_README.md)
+Dataset_v1.0_FROZEN/
+Dataset_v1.0_FROZEN.zip
+train_mini/
+val/
+*.tar.gz
+
+# Handoff dumps / broken Windows path extracts
+Member_C_to_D/
+Member_C_to_E/
+
+# Course PDF (copyrighted assignment sheet — keep local only)
+COMP9517_26T2_Group_Project_Specification-v1.pdf

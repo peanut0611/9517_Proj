@@ -1,0 +1,10 @@
+{
+  "dataset_version": "1.0",
+  "status": "FROZEN",
+  "recorded_at_utc": "2026-07-17T14:57:24.366639+00:00",
+  "auditor": "Member C",
+  "audit_date": "2026-07-18",
+  "metadata_checksums": "PASS",
+  "dataset_audit": "PASS",
+  "sha256_content_audit": "PASS"
+}

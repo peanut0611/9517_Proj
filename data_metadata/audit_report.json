@@ -1,0 +1,29 @@
+{
+  "status": "PASS",
+  "checks_passed": [
+    "class_to_idx contains 500 classes",
+    "class indices are contiguous",
+    "train contains 20000 rows",
+    "train has exactly 40 images per class",
+    "train paths use the correct official source split",
+    "val contains 5000 rows",
+    "val has exactly 10 images per class",
+    "val paths use the correct official source split",
+    "test contains 5000 rows",
+    "test has exactly 10 images per class",
+    "test paths use the correct official source split",
+    "train/val are disjoint by path and image id",
+    "train/test are disjoint by path and image id",
+    "val/test are disjoint by path and image id",
+    "every original category maps to one class index",
+    "all listed image files exist and are readable"
+  ],
+  "warnings": [],
+  "failures": [],
+  "counts": {
+    "train": 20000,
+    "val": 5000,
+    "test": 5000
+  },
+  "unreadable_or_missing_images": 0
+}

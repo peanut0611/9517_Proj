@@ -1,0 +1,41 @@
+experiment:
+  name: b1_full500_sift_bovw_k1000
+  status: draft
+  seed: 9517
+  output_dir: outputs/b1_full500_sift_bovw_k1000
+
+data:
+  version: Dataset v1.0 - FROZEN
+  root: Dataset_v1.0_FROZEN
+  metadata_dir: data_metadata
+  full_num_classes: 500
+  num_classes: null
+  max_train_samples: null
+  max_val_samples: null
+  max_test_samples: null
+
+sift:
+  cache_dir: outputs/cache/sift_full500
+  n_features: 0
+  contrast_threshold: 0.04
+  max_side: 512
+  overwrite_cache: false
+
+vocabulary:
+  size: 1000
+  max_descriptors: 500000
+  batch_size: 8192
+  max_iter: 100
+
+encode:
+  tfidf: true
+  l2_normalize: true
+
+# SVM already saved from the interrupted run; this config only finishes RF.
+classifiers:
+  - name: random_forest
+    params:
+      n_estimators: 100
+      max_depth: 30
+      max_features: sqrt
+      n_jobs: -1

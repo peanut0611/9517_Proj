@@ -1,0 +1,48 @@
+{
+  "dataset_version": "1.0",
+  "status": "FROZEN",
+  "created_at_utc": "2026-07-15T11:37:13.119843+00:00",
+  "seed": 9517,
+  "num_classes": 500,
+  "eligible_classes": 10000,
+  "images_per_class": {
+    "train": 40,
+    "val": 10,
+    "test": 10
+  },
+  "image_counts": {
+    "train": 20000,
+    "val": 5000,
+    "test": 5000
+  },
+  "sources": {
+    "train_and_validation": "train_mini.json",
+    "held_out_test": "val.json"
+  },
+  "notes": [
+    "Train and val are disjoint samples from the official train_mini split.",
+    "Test uses only the official iNaturalist-2021 validation split.",
+    "Image paths are relative to the common dataset root."
+  ],
+  "repaired_at_utc": "2026-07-17T13:28:54.770529+00:00",
+  "repair": {
+    "reason": "Cross-split duplicate image content detected by SHA256",
+    "removed_category_id": 9918,
+    "replacement_category_id": 705,
+    "replacement_species": "Bombus vancouverensis",
+    "preserved_class_index": 495,
+    "seed": 9517,
+    "other_class_mappings_changed": false,
+    "metadata_and_readability_audit": "PASS",
+    "sha256_content_audit": "PASS"
+  },
+  "repair_audit_completed_at_utc": "2026-07-17T13:40:39.985137+00:00",
+  "frozen_at_utc": "2026-07-17T14:57:24.366639+00:00",
+  "independent_audit": {
+    "auditor": "Member C",
+    "audit_date": "2026-07-18",
+    "metadata_checksums": "PASS",
+    "dataset_audit": "PASS",
+    "sha256_content_audit": "PASS"
+  }
+}
