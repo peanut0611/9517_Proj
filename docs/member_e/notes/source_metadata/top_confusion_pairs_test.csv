@@ -1,0 +1,51 @@
+class_a,class_b,a_to_b,b_to_a,symmetric_errors,a_species,b_species,a_common_name,b_common_name,same_genus,same_family
+146,147,5,1,6,Aquila heliaca,Pernis apivorus,Imperial Eagle,European Honey-buzzard,False,True
+345,346,3,3,6,Myosotis latifolia,Myosotis scorpioides,broadleaf forget-me-not,water forget-me-not,True,True
+354,356,3,3,6,Echinocereus enneacanthus,Echinocereus stramineus,Strawberry Cactus,strawberry hedgehog cactus,True,True
+409,410,3,3,6,Ajuga genevensis,Ajuga reptans,Blue Bugle,carpet bugle,True,True
+75,76,5,0,5,Celastrina ladon,Cyaniris semiargus,Spring Azure,Mazarine Blue,False,True
+151,152,4,1,5,Mergellus albellus,Mergus merganser,Smew,Common Merganser,False,True
+149,212,3,1,4,Cygnus olor,Pelecanus crispus,Mute Swan,Dalmatian Pelican,False,False
+385,407,3,1,4,Gaultheria antipoda,Coprosma dumosa,Gaultheria antipoda,Coprosma dumosa,False,False
+0,27,2,2,4,Araneus diadematus,Leptoglossus occidentalis,Cross Orbweaver,Western Conifer Seed Bug,False,False
+73,74,2,2,4,Anthene emolus,Catochrysops strabo,Common Ciliate Blue,Forget-me-not,False,True
+128,129,2,2,4,Pimephales notatus,Rhinichthys atratulus,Bluntnose Minnow,Blacknose Dace,False,True
+134,136,2,2,4,Parupeneus spilurus,Abudefduf vaigiensis,Blackspot Goatfish,Indo-Pacific Sergeant Major,False,False
+160,163,2,2,4,Chroicocephalus hartlaubii,Larus glaucescens,Hartlaub's Gull,Glaucous-winged Gull,False,True
+264,265,2,2,4,Agaricus xanthodermus,Chlorophyllum molybdites,Yellow Stainer,green-spored parasol,False,True
+428,429,2,2,4,Verbascum nigrum,Verbascum virgatum,Dark Mullein,Wand Mullein,True,True
+168,174,1,3,4,Zapornia flavirostra,Pyrrhocorax graculus,Black Crake,Alpine Chough,False,False
+348,349,3,0,3,Cardamine hirsuta,Cardamine impatiens,hairy bittercress,narrow-leaved bittercress,True,True
+8,22,2,1,3,Chauliognathus pensylvanicus,Eristalis transversa,Goldenrod Soldier Beetle,Transverse-banded Flower Fly,False,False
+17,19,2,1,3,Exomala orientalis,Exaireta spinigera,Oriental Beetle,Garden soldier fly,False,False
+20,34,2,1,3,Copestylum mexicanum,Xylocopa micans,Mexican Cactus Fly,Southern Carpenter Bee,False,False
+63,70,2,1,3,Ancyloxypha numitor,Thymelicus lineola,Least Skipper,European Skipper,False,True
+156,159,2,1,3,Charadrius wilsonia,Haematopus palliatus,Wilson's Plover,American Oystercatcher,False,False
+170,190,2,1,3,Pheucticus chrysopeplus,Setophaga dominica,Yellow Grosbeak,Yellow-throated Warbler,False,False
+173,210,2,1,3,Psilorhinus morio,Cochlearius cochlearius,Brown Jay,Boat-billed Heron,False,False
+179,204,2,1,3,Stelgidopteryx ruficollis,Contopus sordidulus,Southern Rough-winged Swallow,Western Wood-Pewee,False,False
+196,208,2,1,3,Eopsaltria australis,Zosterops japonicus,Eastern Yellow Robin,Warbling White-eye,False,False
+276,278,2,1,3,Thuidium delicatulum,Radula complanata,delicate fern moss,Flat-leaved Scalewort,False,False
+404,449,2,1,3,Morella californica,Leucadendron laureolum,California Wax Myrtle,Golden Sunshinebush,False,False
+490,491,2,1,3,Abies concolor,Pinus contorta,white fir,lodgepole pine,False,True
+497,499,2,1,3,Dennstaedtia punctilobula,Phegopteris hexagonoptera,hay-scented fern,broad beech fern,False,False
+9,21,1,2,3,Rutpela maculata,Eristalis stipator,Spotted Longhorn,Yellow-shouldered Drone Fly,False,False
+35,89,1,2,3,Cimbex americanus,Euphydryas phaeton,Elm Sawfly,Baltimore Checkerspot,False,False
+57,59,1,2,3,Colotois pennaria,Ilexia intractata,Feathered Thorn,Black-dotted Ruddy Moth,False,True
+133,140,1,2,3,Eupetrichthys angustipes,Hippocampus histrix,Snakeskin Wrasse,Spiny Seahorse,False,False
+189,218,1,2,3,Setophaga citrina,Trogon rufus,Hooded Warbler,Black-throated Trogon,False,False
+196,218,1,2,3,Eopsaltria australis,Trogon rufus,Eastern Yellow Robin,Black-throated Trogon,False,False
+254,257,1,2,3,Americoliva sayana,Rumina decollata,Lettered Olive,Decollate Snail,False,False
+276,496,1,2,3,Thuidium delicatulum,Cystopteris fragilis,delicate fern moss,brittle bladderfern,False,False
+411,471,1,2,3,Melissa officinalis,Urtica urens,lemon balm,Dwarf Nettle,False,False
+488,489,1,2,3,Taxodium distichum,Taxodium mucronatum,baldcypress,Montezuma cypress,True,True
+76,78,0,3,3,Cyaniris semiargus,Leptotes marina,Mazarine Blue,Marine Blue,False,True
+113,114,0,3,3,Orthodera ministralis,Chrysopa oculata,Australian Green Mantis,Chrysopa oculata,False,False
+183,208,0,3,3,Ptilotula penicillata,Zosterops japonicus,White-plumed Honeyeater,Warbling White-eye,False,False
+189,209,0,3,3,Setophaga citrina,Zosterops palpebrosus,Hooded Warbler,Indian White-eye,False,False
+282,297,0,3,3,Hymenocallis liriosme,Erythronium oregonum,spring spiderlily,giant white fawn lily,False,False
+491,492,0,3,3,Pinus contorta,Pinus ponderosa,lodgepole pine,ponderosa pine,True,True
+2,42,2,0,2,Dolomedes triton,Mischocyttarus flavitarsis,Six-spotted Fishing Spider,Western Paper Wasp,False,False
+8,69,2,0,2,Chauliognathus pensylvanicus,Polites mystic,Goldenrod Soldier Beetle,Long Dash Skipper,False,False
+22,32,2,0,2,Eristalis transversa,Phymata americana,Transverse-banded Flower Fly,Jagged Ambush Bug,False,False
+26,27,2,0,2,Leptoglossus clypealis,Leptoglossus occidentalis,Western Leaf-footed Bug,Western Conifer Seed Bug,True,True

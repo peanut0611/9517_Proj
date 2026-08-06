@@ -1,0 +1,75 @@
+{
+  "status": "FROZEN",
+  "frozen_at": "2026-07-23",
+  "member": "A",
+  "dataset_version": "1.0",
+  "seed": 9517,
+  "num_classes": 500,
+  "selection_data": "validation only",
+  "tuning_closed": true,
+  "test_access": "CONSUMED_LOCKED",
+  "test_evaluations_completed": 1,
+  "final_configuration": {
+    "image_size": 128,
+    "descriptor": "combined",
+    "descriptor_components": [
+      "colour",
+      "lbp",
+      "hog"
+    ],
+    "classifier": "SGDClassifier",
+    "loss": "hinge",
+    "interpretation": "linear SVM objective optimized with stochastic gradient descent",
+    "C": 1.0,
+    "alpha": 5e-05,
+    "alpha_formula": "1 / (C * n_train)",
+    "average": true,
+    "max_iter": 1000,
+    "tol": 0.001,
+    "random_state": 9517,
+    "n_jobs": 8
+  },
+  "validation_metrics": {
+    "num_images": 5000,
+    "top1_accuracy": 0.048,
+    "top5_accuracy": 0.1254,
+    "macro_precision": 0.05134894635883067,
+    "macro_recall": 0.048,
+    "macro_f1": 0.04250020560718845,
+    "fit_seconds": 289.1069837080013,
+    "predict_seconds": 0.027471375000459375
+  },
+  "selection_evidence": {
+    "image_size": "128 outperformed 224 in Top-1 accuracy (2.84% vs 2.32%) and was about three times faster; paired McNemar p=0.03295",
+    "descriptor": "Combined outperformed HOG in Top-1 accuracy (4.80% vs 2.84%); paired McNemar p approximately 1.78e-14",
+    "C": "C=1 outperformed C=10 in Top-1 accuracy (4.80% vs 3.90%); paired McNemar p=0.00123"
+  },
+  "source_result_directory": "experiment_workspace/results/formal_combined_128_c1",
+  "sha256": {
+    "model.joblib": "0ff7dd83d0a454fa90831a6d4e9c60925802ba30694ceaa44a18039fd2472c5b",
+    "experiment_config.json": "8c45c9f12b79fef234c26f11d3e98aea6f8459e393f38327eeeb154280e177f2",
+    "metrics.json": "ede8a39de01bf10d1fda6e6f0cee2ed0a0de82f3e64a3bf11802876c4f1c2bcd",
+    "data_metadata/train.csv": "6ebc6f3d7c3d12bddc27980ef26b014500798cc7b3fa0118188af41962bf93cc",
+    "data_metadata/val.csv": "f9c715399991b56c889fc8b09ae6f683583f26c13dac315d3a9bd02bb2b561ba"
+  },
+  "evaluation_policy": "Do not change image size, descriptor, classifier hyperparameters, or preprocessing after test is unlocked. Run the final test evaluation once and report the result without further tuning.",
+  "test_result_directory": "experiment_workspace/results/final_test_combined_128_c1",
+  "test_metrics": {
+    "num_images": 5000,
+    "top1_accuracy": 0.0448,
+    "top5_accuracy": 0.1216,
+    "macro_precision": 0.04896869907000933,
+    "macro_recall": 0.0448,
+    "macro_f1": 0.039894721664039436,
+    "feature_extraction_seconds": 24.973541667000973,
+    "predict_seconds": 0.028806374997657258
+  },
+  "test_sha256": {
+    "data_metadata/test.csv": "7b0b5191cdd576361d4d7ee7a1e765baa7698f03f22707e88ad0b8d08c2a409b",
+    "predictions.csv": "ad8ea46551e2274bb196330035f87b8f737cf415e71c87014bc3ab86f0e38b25",
+    "metrics.json": "35bb061a32df2a804627d0a93b22846b53e6a0ab73a936402cfcb969007729d5",
+    "confusion_matrix.csv": "248affe8215ebf124a9211f1e73c3e4e781c570a81ba05d73c18f47c2df5b1ce",
+    "test_confusion_matrix.png": "dc2fa57f6ef6d2adc21d821c1062acfb310877a80242251df607422eb7046ae9"
+  },
+  "post_test_tuning_allowed": false
+}

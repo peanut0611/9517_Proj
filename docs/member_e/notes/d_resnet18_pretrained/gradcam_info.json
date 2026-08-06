@@ -1,0 +1,5 @@
+{
+    "model_architecture": "ResNet-18",
+    "target_layer_name": "layer4[-1]",
+    "description": "The last BasicBlock in layer4. Access via model.layer4[-1] in pytorch-grad-cam."
+}

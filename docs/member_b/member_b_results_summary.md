@@ -124,11 +124,13 @@ Notes:
 ## 5. Still TODO for Member B
 
 - [x] Vocabulary-size ablation on val (`K = 500 / 1000 / 2000`)
+- [x] Success / failure case shortlist (`docs/member_b/cases_k2000_svm/`)
+- [x] Report draft notes (`docs/member_b/member_b_report_draft.md`)
 - [ ] Optional: TF-IDF on/off ablation
-- [ ] Success / failure case examples for the report and video
-- [ ] Report sections: traditional local method, literature, results table, discussion
-- [ ] Video segment: pipeline + ablation conclusions
-- [ ] Repo README / ZIP packaging (group integration role)
+- [ ] Polish report text with D into final LaTeX
+- [ ] Video segment: pipeline + ablation conclusions (use draft talking points)
+- [ ] Final ZIP packaging check near deadline
+
 
 ---
 

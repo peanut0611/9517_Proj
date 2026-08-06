@@ -1,0 +1,13 @@
+{
+    "model_name": "EfficientNet-B0",
+    "pretrained": true,
+    "weights": "EfficientNet_B0_Weights.DEFAULT",
+    "optimizer": "SGD",
+    "lr": 0.05,
+    "momentum": 0.9,
+    "weight_decay": 0.0001,
+    "scheduler": "CosineAnnealingLR",
+    "batch_size": 128,
+    "best_epoch": 84,
+    "training_time_seconds": 4663.593620061874
+}

@@ -1,0 +1,13 @@
+{
+    "model_name": "ResNet-18",
+    "pretrained": true,
+    "weights": "ResNet18_Weights.DEFAULT",
+    "optimizer": "SGD",
+    "lr": 0.05,
+    "momentum": 0.9,
+    "weight_decay": 0.0001,
+    "scheduler": "CosineAnnealingLR",
+    "batch_size": 128,
+    "best_epoch": 85,
+    "training_time_seconds": 2689.3555915355682
+}

@@ -1,0 +1,5 @@
+{
+    "model_architecture": "EfficientNet-B0",
+    "target_layer_name": "features[-1]",
+    "description": "The last Conv2dNormActivation block in features. Access via model.features[-1] in pytorch-grad-cam."
+}

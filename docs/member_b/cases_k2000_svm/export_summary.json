@@ -1,0 +1,9 @@
+{
+  "predictions": "/Users/peanut/Code/UNSW/COMP9517/9517_Proj/outputs/b1_ablate_k2000/svm/predictions_test.csv",
+  "n_test": 5000,
+  "n_correct": 443,
+  "n_wrong": 4557,
+  "success_csv": "/Users/peanut/Code/UNSW/COMP9517/9517_Proj/docs/member_b/cases_k2000_svm/success_cases.csv",
+  "failure_csv": "/Users/peanut/Code/UNSW/COMP9517/9517_Proj/docs/member_b/cases_k2000_svm/failure_cases.csv",
+  "markdown": "/Users/peanut/Code/UNSW/COMP9517/9517_Proj/docs/member_b/cases_k2000_svm/CASE_SHORTLIST.md"
+}

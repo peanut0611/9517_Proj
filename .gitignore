@@ -1,5 +1,6 @@
 # Python / tooling
 .venv/
+.venv_pptx/
 __pycache__/
 *.py[cod]
 *.egg-info/
@@ -12,6 +13,7 @@ Thumbs.db
 
 # Local experiment artifacts (too large for git / course ZIP)
 outputs/
+experiment_workspace/
 *.joblib
 *.npz
 *.npz
@@ -28,9 +30,22 @@ train_mini/
 val/
 *.tar.gz
 
-# Handoff dumps / broken Windows path extracts
-Member_C_to_D/
-Member_C_to_E/
+# Group handoffs / starters / scratch (local only)
+handoffs/
+_local/
+*.pptx
+*.mp4
+*.mov
+*.zip
+*.docx
+
+# Large Grad-CAM PNG dumps (report/figures has compressed panels for the PDF)
+docs/member_e/figures_c1/
+docs/member_e/figures_scratch_vs_pretrained/
+docs/member_e/figures_three_model_comparison/
 
 # Course PDF (copyrighted assignment sheet — keep local only)
-COMP9517_26T2_Group_Project_Specification-v1.pdf
+docs/group/COMP9517_26T2_Group_Project_Specification-v1.pdf
+
+# OneDrive unpack staging
+_sync_onedrive*/

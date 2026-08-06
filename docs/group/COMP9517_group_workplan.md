@@ -106,15 +106,15 @@ Grad-CAM 不能只生成热力图，需要围绕以下问题进行分析：
 
 ## 4. 五人分工
 
-成员字母暂为占位符，确定后替换为姓名。
+成员字母对应姓名：
 
-| 成员 | 主要技术与代码工作 | 主要实验 | 报告内容 | 视频内容 |
-|---|---|---|---|---|
-| A | 统一数据划分、类别映射、公共评估；Colour/LBP/HOG + SVM | Descriptor 消融、数据审计、基础指标 | Dataset、Experimental Setup、基础传统方法 | 问题、数据集和评估方式 |
-| B | SIFT-BoVW + SVM/Random Forest | Classifier 对比、BoVW 配置及传统方法时间 | 传统方法、相关文献和结果 | Handcrafted pipeline 和消融结论 |
-| C | ResNet-18 Scratch | Augmentation 消融、收敛曲线、训练时间 | Scratch CNN、训练动态和结果 | 从零训练、曲线和主要问题 |
-| D | ResNet-18 Pretrained + EfficientNet-B0 Pretrained | Pretraining 对比、architecture 对比 | Transfer Learning 和深度模型结果 | 预训练、架构比较和主要结果 |
-| E | Grad-CAM、错误案例筛选、混淆分析 | 正确/错误/混淆物种、Scratch/Pretrained 注意力对比 | Grad-CAM、Error Analysis、Discussion | 可解释性发现和软件演示 |
+| 成员 | 姓名 | 主要技术与代码工作 | 主要实验 | 报告内容 | 视频内容 |
+|---|---|---|---|---|---|
+| A | Xiangze Xue | 统一数据划分、类别映射、公共评估；Colour/LBP/HOG + SVM | Descriptor 消融、数据审计、基础指标 | Dataset、Experimental Setup、基础传统方法 | 问题、数据集和评估方式 |
+| B | Zhigeng Qiao | SIFT-BoVW + SVM/Random Forest | Classifier 对比、BoVW 配置及传统方法时间 | 传统方法、相关文献和结果 | Handcrafted pipeline 和消融结论 |
+| C | Zhiyang Ding | ResNet-18 Scratch | Augmentation 消融、收敛曲线、训练时间 | Scratch CNN、训练动态和结果 | 从零训练、曲线和主要问题 |
+| D | Yongqi Yang | ResNet-18 Pretrained + EfficientNet-B0 Pretrained | Pretraining 对比、architecture 对比 | Transfer Learning 和深度模型结果 | 预训练、架构比较和主要结果 |
+| E | Xinyan Chen | Grad-CAM、错误案例筛选、混淆分析 | 正确/错误/混淆物种、Scratch/Pretrained 注意力对比 | Grad-CAM、Error Analysis、Discussion | 可解释性发现和软件演示 |
 
 ### 4.1 额外整合职责
 
@@ -352,7 +352,7 @@ confidence
 
 ## 12. 当前需要全组确认的事项
 
-- [ ] A–E 分别对应哪位成员；
+- [x] A–E 分别对应哪位成员（A Xiangze Xue / B Zhigeng Qiao / C Zhiyang Ding / D Yongqi Yang / E Xinyan Chen）；
 - [ ] 数据存储位置和共享方式；
 - [ ] 固定随机种子；
 - [ ] ResNet-18 和 EfficientNet-B0 是否采用统一输入尺寸；

@@ -1,0 +1,45 @@
+experiment:
+  name: c1_scratch_resnet18_standard_aug
+  status: frozen_v1
+  seed: 9517
+  output_dir: outputs/c1_scratch_resnet18_standard_aug
+
+data:
+  version: Dataset v1.0 - FROZEN
+  root: dataset_extracted
+  metadata_dir: data_metadata
+  image_size: 224
+  resize_size: 256
+  train_transform: standard
+  color_jitter: false
+  max_train_samples: null
+  max_val_samples: null
+
+model:
+  architecture: resnet18
+  pretrained: false
+  num_classes: 500
+
+loader:
+  batch_size: 128
+  workers: 4
+  pin_memory: true
+
+training:
+  device: cuda
+  epochs: 100
+  amp: true
+  deterministic: true
+  grad_accum_steps: 1
+  optimizer:
+    name: sgd
+    lr: 0.05
+    momentum: 0.9
+    weight_decay: 0.0001
+  scheduler:
+    name: cosine
+    t_max: 100
+    eta_min: 0.0
+  early_stopping:
+    patience: 15
+    min_delta: 0.0001
